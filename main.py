@@ -2,8 +2,8 @@ from classes import *
 from time import sleep
 
 print("Registre-se primeiro: ")
-nome = input('Nome: ')
-disciplina = input('Disciplina que irá lecionar: ')
+nome = input('Nome: ').strip()
+disciplina = input('Disciplina que irá lecionar: ').strip()
 professor1 = Professor(nome, disciplina)
 sleep(2)
 print("Cadastrando...")
